@@ -1,0 +1,223 @@
+*{
+
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing:border-box;
+  }
+
+  
+#add-button{
+  font-size:  30px;
+  color: green;
+  vertical-align: middle;
+  }
+  
+  section{
+   font-size: 40px;
+   margin-bottom: 120px;
+  }
+  
+  .hvr-icon-forward:before {
+     content: "\f138";
+     position: absolute;
+     right: 1em;
+     padding: 0 1px;
+     font-family: FontAwesome;
+     transform: translateZ(0);
+     transition-duration: 0.1s;
+     transition-property: transform;
+     transition-timing-function: ease-out;
+  }
+  
+  /* header{
+   background-color: teal;
+   height: 50px;
+   padding: 20px;
+  
+  } */
+  /*
+  body{
+  
+  background-image: url(http://blog.reachaccountant.com/wp-content/uploads/2016/07/st-inventory-updated-icons.jpg
+  http://blog.reachaccountant.com/wp-content/uploads/2016/07/st-inventory-updated-icons.jpg
+  
+  http://blog.reachaccountant.com/wp-content/uploads/2016/07/st-inventory-updated-icons.jpg
+  http://blog.reachaccountant.com/wp-content/uploads/2016/07/st-inventory-updated-icons.jpg
+  
+  );
+   background-size: cover;
+  }
+  */
+  
+  button {
+   width: 100px;
+   outline-color: invert;
+   cursor: pointer;
+   height: 25px;
+  }
+  
+  
+  /* th{
+  background-color: #3D9970;
+  border: 1px solid teal;
+  
+  } */
+  
+  /* table,td{
+   width: 700px;
+   border: 1px solid black;
+   border-width: thin;
+   font-family:sans-serif;
+   text-align: center;
+   height: 40px;
+  background-color: #D3D3D3    ;
+  margin-left: 250px;
+  
+  } */
+  
+  table {
+   color: #333;
+   Lighten up font color
+   font-family: Helvetica, Arial, sans-serif;
+   width: 640px;
+   border-collapse: collapse;
+   border-spacing: 0;
+   margin-left: 150px;
+   width: 900px;
+  }
+  
+  td, th {
+   border: 1px solid #CCC;
+   height: 30px;
+  }
+  
+  /* Make cells a bit taller */
+  
+  th {
+   background: #4CAF50;;
+   /* Light grey background */
+   font-weight: bold;
+  
+  /* Make sure they're bold */
+  }
+  
+  td {
+   background: #FAFAFA;
+   /* Lighter grey background */
+   text-align: center;
+   /* Center our text */
+  }
+  
+
+  
+  input {
+   border-width: thing;
+   border-radius: 0px;
+   width: 100px;
+   height: 50px;
+   background-color: snow;
+   outline: 0;
+   margin-right: 50px;
+  
+  }
+  
+  form {
+   display: inline-block;
+  
+  }
+  
+  
+  input::-webkit-input-placeholder {
+   color: #AAA;
+  }
+  
+  input:focus::-webkit-input-placeholder {
+   color: dodgerblue;
+  }
+  
+  .input:focus+.underline {
+   transform: scale(1);
+  }
+  
+  .underline {
+   background-color: dodgerblue;
+   display: inline-block;
+   height: 2px;
+   left: 50px;
+   margin-top: -4px;
+   position: absolute;
+   top: 185px;
+   -webkit-transform: scale(0, 1);
+   transform: scale(0, 1);
+   -webkit-transition: all 0.5s linear;
+   transition: all 0.5s linear;
+   width: 202px;
+  }
+  
+  html {
+   box-sizing: border-box;
+   background: #eeeeee;
+   font-family: 'helvetica neue';
+   font-size: 20px;
+   font-weight: 200;
+  }
+  
+  header {
+   background-color: brown;
+   color: white;
+   text-align: center;
+   height: 50vh;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  body {
+   margin: 0;
+   background-color: snow;
+  }
+  
+  *,* :before, *:after {
+   box-sizing: inherit;
+  }
+  
+  .site-wrap {
+   max-width: 700px;
+   margin: 70px auto;
+   background: white;
+   padding: 40px;
+   text-align: justify;
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+   transform: scale(0.98);
+   transition: transform 0.5s;
+  }
+  
+  body.fixed-nav .site-wrap {
+   transform: scale(1);
+  }
+  
+  h1{
+    text-align: center;
+    background-color: rgb(177, 187, 177);
+  }
+
+  #delete {
+  
+  width:100px;
+   color: red;
+   padding: 2px;
+   margin-left: 6px;
+   border-radius: 3px;
+  
+  }
+  
+  #edit {
+   color: green;
+   width:100px;
+   padding: 2px;
+   margin-right: 6px;
+   border-radius: 3px
+  
+  }
